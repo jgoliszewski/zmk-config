@@ -11,7 +11,7 @@
 #define DEFAULT 0
 #define LOWER   1
 #define RAISE   2
-#define ADJUST   3
+#define ADJUST  3
 #define MEDIA   4
 
 #define LEFT_DESK LG(LC(LEFT))
@@ -32,7 +32,7 @@
 &trans  &kp Q   &kp W   &kp E   &kp R   &kp T           &kp Y   &kp U   &kp I     &kp O   &kp P    &trans
 &trans  &kp A   &kp S   &kp D   &kp F   &kp G           &kp H   &kp J   &kp K     &kp L   &kp SEMI &trans
 &trans  &kp Z   &kp X   &kp C   &kp V   &kp B           &kp N   &kp M   &kp COMMA &kp DOT &kp FSLH &trans
-        &lt 4 ESC  &lt 1 SPACE &kp TAB   &kp BSPC &lt 2 ENT &kp RALT
+        &mo MEDIA  &mo LOWER &kp TAB   &kp BSPC &mo RAISE  &kp RALT
                         >;
                 };
                 lower_layer {
