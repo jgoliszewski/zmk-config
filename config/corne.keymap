@@ -18,6 +18,10 @@
 #define RIGHT_DESK LG(LC(RIGHT))
 #define TASK_MAN LC(LS(ESC))
 
+&mt {
+    tapping-term-ms = <140>;
+};
+
 / {
         keymap {
                 compatible = "zmk,keymap";
