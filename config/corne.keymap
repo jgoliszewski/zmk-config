@@ -62,7 +62,7 @@
 //                    |     |     |     |   |     |     |     |
                         bindings = <
    &trans &kp EXCL  &kp LBRC  &kp RBRC  &kp DLLR      &kp PRCNT         &kp CARET  &kp AMPS  &kp KP_MULTIPLY &kp PIPE  &kp BSLH  &trans
-   &trans &kp AT    &kp LPAR  &kp RPAR  &kp KP_MINUS  &kp PLUS          &kp DQT    &kp LEFT  &kp UP          &kp DOWN  &kp RIGHT &trans
+   &trans &mt LGUI AT    &mt LALT LPAR  &mt LSHFT RPAR  &mt LCTRL KP_MINUS  &kp PLUS          &kp DQT    &kp LEFT  &kp UP          &kp DOWN  &kp RIGHT &trans
    &trans &kp HASH  &kp LBKT  &kp RBKT  &kp EQUAL  &kp UNDER         &kp APOS   &kp HOME  &kp N0          &kp DEL   &kp END   &trans
         &lt MEDIA ESC  &lt LOWER SPACE &kp TAB   &kp BSPC &lt RAISE ENTER &kp RALT     
                         >;
