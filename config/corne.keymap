@@ -23,6 +23,25 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        email_main {
+            bindings = <&email_main>;
+            key-positions = <17 4>;
+            layers = <0>;
+        };
+    };
+
+    macros {
+        email_main: email_main {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp J &kp A &kp K &kp U &kp B &kp DOT &kp G &kp O &kp L &kp I &kp S &kp Z &kp E &kp W &kp S &kp K &kp I &kp N0 &kp N1 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "EMAIL_MAIN";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
